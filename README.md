@@ -41,3 +41,16 @@ You are required to submit the following for review:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+References -
+
+https://www.sitepoint.com/simple-javascript-quiz/
+
+https://simplestepscode.com/javascript-quiz-tutorial/
+
+https://codeactually.com/interactivequiz.html
+
+https://webdevtrick.com/create-javascript-quiz-program/
+
+https://www.insider.com/fun-facts-stranger-things-2018-10#the-extras-were-excited-to-see-the-shows-main-couple-get-together-in-the-school-dance-scene-11
