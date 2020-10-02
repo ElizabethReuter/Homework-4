@@ -82,26 +82,24 @@ var questions = [
     new Question ("The producers of Stranger Things got secret-keeping tips from the producers of what other tv series?", ['Friends', 'Game of Thrones', 'Supernatural', 'New Girl'], "Game of Thrones"),
     new Question ("It was Caleb McLaughlin's idea to have his character, Lucas, wear what accessory?", ['Backpack', 'Watch', 'Baseball Cap', 'Bandana'], "Bandana")
 ];
-console.log(questions);
 
-// var secondsLeft = 60;
-
-
-// function setTime() {
-//     var timerInterval = setInterval(function() {
-//         secondsLeft--;
-//         timeEl.textContent = secondsLeft + " seconds left till end of game.";
-        
-//         if(secondsLeft === 0) {
-//             clearInterval(timerInterval);
-//             sendMessage("Times up!");
-//         }
-        
-//     }, 1000*60);
-// }
+window.onload = function() {
+    var sec = 60;
+    setInterval(function() {
+      document.getElementById("timer").innerHTML = " Time : " + sec;
+      sec--;
+      if (sec == 00) {
+        sec = 60;
+        if (minute == 0) {
+          minute = 1;
+        }
+      }
+    }, 1000);
+  }
 
 // create quiz
 var quiz = new Quiz(questions);
 
 // display quiz
 populate();
+
