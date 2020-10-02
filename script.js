@@ -97,6 +97,10 @@ window.onload = function() {
     }, 1000);
   }
 
+  setTimeout(function(){
+    clearInterval(sec);
+ }, 1000);
+
 // create quiz
 var quiz = new Quiz(questions);
 
